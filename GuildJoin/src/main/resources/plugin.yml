@@ -1,0 +1,11 @@
+name: GuildJoin
+main: uk.tjevans.guildjoin.GuildJoin
+version: 0.0.1
+
+commands:
+  masterwhitelist:
+      description: base command used to view the whitelist and to add players
+      usage: "/masterwhitelist {arg1} {arg2}"
+  api:
+      description: fetches api key from the config
+      usage: "/api"
